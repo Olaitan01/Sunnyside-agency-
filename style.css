@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    background-color: rgb(62, 191, 255);
+    width: 100%;
+    height: 142.6vh;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+.header-nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.header-nav a {
+    color: rgb(254, 254, 255);
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.header-nav a span {
+    color: black;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    background-color: white;
+}
+
+.header img {
+    max-width: 100%;
+}
+
+.header-hero p {
+    text-align: center;
+    color: rgb(254, 254, 255);
+    font-size: 5rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+    padding-top: 3rem;
+}
+.arrow{
+    position: absolute;
+    transform: translateX(36rem);
+    margin-top: 18rem;
+   
+}
+
+.branding {
+    display: flex;
+    flex-basis: 2rem;
+    flex-grow: 1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.branding span {
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4rem;
+    width: 51%;
+}
+
+
+.branding h2 span {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.branding h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 3rem;
+    padding: 2rem 0;
+}
+
+.branding p {
+    font-size: 0.8rem;
+    line-height: 2rem;
+
+}
+
+.learn-more {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-decoration: 0.5rem underline rgb(255, 241, 190);
+    font-weight: bolder;
+    padding-top: 1rem;
+}
+
+.egg img {
+    max-width: 100%;
+    height: 100%;
+
+}
+.p-g{
+    position:absolute;
+    transform: translateY(-15rem);
+    text-align: center;
+    margin-left: 12rem;
+    color:  rgb(30,84,110);
+}
+.clients{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.clients img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+.clients img{
+    display: flex;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(100,102,106);
+    padding-bottom: 2rem;
+}
+.testimonial h2{
+    text-align: center;
+    color: rgb(169,170,172);
+    padding-bottom: 3rem;
+
+}
+.testimonial{
+    padding: 2rem;
+    text-align: center;
+}
+.client-name{
+    color: rgb(63,70,80);
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.job-role{
+    color: rgb(204,203,201);
+    font-size: 0.8rem;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-images{
+    display: flex; 
+    transform: translateY(1rem);   
+}
+.footer-images img{
+    max-width: 100%;
+}
+.footer-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(144,212,197);
+    color: rgb(44,117,100);
+    font-size: 0.8rem;
+    height: 35vh;
+    
+}
+.footer-end p{
+    font-weight: bolder;
+    font-size: 1rem;
+
+}
+.footer-nav{
+    padding: 1rem 0;
+}
+.footer-nav a{
+    padding: 1rem;
+    text-decoration: none;
+    color:rgb(44,117,100) ;
+    
+}
+.socials img{
+    width: 1rem;
+    height: 1rem;
+}
+.socials{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    
+}
