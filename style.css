@@ -1,3 +1,4 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 * {
     box-sizing: border-box;
     padding: 0;
@@ -32,7 +33,7 @@ body {
     font-size: 14px;
     text-decoration: none;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 400;
 
 }
 
@@ -43,7 +44,9 @@ body {
     padding: 0.3rem;
     background-color: white;
 }
-
+.header-nav a span:hover{
+    background-color: rgb(255,186,1);
+}
 .header img {
     max-width: 100%;
 }
@@ -55,6 +58,7 @@ body {
     line-height: 5rem;
     text-transform: uppercase;
     padding-top: 3rem;
+    font-family: 'Merriweather', serif;
 }
 .arrow{
     position: absolute;
@@ -106,6 +110,7 @@ body {
     font-weight: bolder;
     line-height: 3rem;
     padding: 2rem 0;
+    font-family: 'Merriweather', serif;
 }
 
 .branding p {
@@ -161,6 +166,7 @@ body {
     text-align: center;
     color: rgb(169,170,172);
     padding-bottom: 3rem;
+    font-family: 'Merriweather', serif;
 
 }
 .testimonial{
@@ -172,6 +178,7 @@ body {
     padding-bottom: 0.5rem;
     font-size: 1.5rem;
     font-weight: bolder;
+    font-family: 'Merriweather', serif;
 }
 .job-role{
     color: rgb(204,203,201);
