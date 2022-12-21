@@ -36,6 +36,9 @@ body {
     font-weight: 400;
 
 }
+.header-nav a:hover{
+    opacity: 0.5;
+}
 
 .header-nav a span {
     color: black;
