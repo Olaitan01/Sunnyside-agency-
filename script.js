@@ -9,7 +9,7 @@ menuBtn.addEventListener("click",()=>{
         openBtn.style.display="none"
         closeBtn.style.display="block"
         menuItem.style.display="block"
-        headerHeight.style.height="123vh"
+        headerHeight.style.height="60rem"
         
     }
     else{
@@ -17,6 +17,6 @@ menuBtn.addEventListener("click",()=>{
         openBtn.style.display="block"
         closeBtn.style.display="none"
         menuItem.style.display="none"
-        headerHeight.style.height="102.2vh"
+        headerHeight.style.height="50rem"
     }
 })
