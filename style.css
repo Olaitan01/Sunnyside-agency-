@@ -27,7 +27,9 @@
  .mobile-menu {
      display: none;
  }
-
+.menu-list{
+    display: none;
+}
  .header-nav {
      display: flex;
      gap: 2rem;
