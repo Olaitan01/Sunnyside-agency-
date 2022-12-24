@@ -139,6 +139,7 @@
      text-decoration: 0.5rem underline rgb(255, 241, 190);
      font-weight: bolder;
      padding-top: 1rem;
+     
  }
 
  .egg img {
@@ -358,7 +359,7 @@
     
 
      .header {
-         height: 50rem;
+         height: 49rem;
      }
 
      .header-hero .mobile-img {
@@ -425,3 +426,24 @@
      }
      
  }
+/*@media screen and (max-width:1194px) {
+    .arrow{
+        margin-top: 7rem;
+        transform: translateX(20rem);
+        
+    }
+    .header{
+        height: 40.7rem;
+    }
+    .desc{
+        width: 56%;
+    }
+    .p-g{
+        margin-left: 4rem;
+        transform: translateY(-13rem);
+    }
+    .review {
+        display: flex;
+        
+    }
+}*/
