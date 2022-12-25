@@ -17,6 +17,6 @@ menuBtn.addEventListener("click",()=>{
         openBtn.style.display="block"
         closeBtn.style.display="none"
         menuItem.style.display="none"
-        headerHeight.style.height="50rem"
+        headerHeight.style.height="49rem"
     }
 })

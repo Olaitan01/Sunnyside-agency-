@@ -345,9 +345,9 @@
  }
 
  @media screen and (max-width:768px) {
-     .header-hero img {
+    /* .header-hero img {
          display: block;
-     }
+     }*/
      .header-hero p{
         font-size: 3rem;
      }
@@ -426,6 +426,7 @@
      }
      
  }
+
 /*@media screen and (max-width:1194px) {
     .arrow{
         margin-top: 7rem;
