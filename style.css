@@ -409,7 +409,7 @@
  }
 
 
- /*@media screen and (max-width:800px) {
+ @media (min-width:620px) and (max-width:1024px) {
     .header-hero img{
         font-display: block;
     }
@@ -438,4 +438,4 @@
         height: 20vh;
         display: block;
     }
- }*/
+ }
