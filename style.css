@@ -58,7 +58,7 @@
 
  .header-nav a span:hover {
      background-color: rgb(255, 186, 1);
-     opacity: 0;
+     opacity: 1;
  }
 
  .header img {
