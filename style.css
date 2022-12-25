@@ -269,7 +269,7 @@
      display: none;
  }
 
- @media screen and (max-width:600px) {
+ @media screen and (max-width:620px) {
 
 
      .header-nav,
@@ -299,7 +299,30 @@
      .header {
          height: 49rem;
      }
+     .header-hero p{
+        font-size: 3rem;
+     }
+     .header-top{
+        justify-content: space-between;
+        padding: 1rem;
+       
+     }
+     .header-hero .mobile-img {
+        display: block;
+    }
+    .header-hero img{
+       display: none;
+    }
+    .arrow {
+        margin-top: 17rem;
+        transform: translateX(8rem);
+    }
 
+    .arrow img {
+        width: 100%;
+        height: 20vh;
+        display: block;
+    }
      .branding span {
          display: flex;
          line-height: 24px;
@@ -324,16 +347,33 @@
      .egg {
          width: 100%;
      }
-     .p-g h2{
+     /*.p-g h2{
         text-align: center;
         margin-right: 0;
         padding: 0rem;
-     }
-    
+     }*/
+     .p-g {
+        margin-left: 4rem;
+        transform: translateY(-15rem);
+    }
+
      .clients {
          display: flex;
          flex-direction: column;
      }
+     .menu-btn {
+        background-color: inherit;
+        border: none;
+        align-items: center;
+
+     }
+     .mobile-menu {
+        display: block;
+        
+    }
+    .close-icon {
+        display: none;
+    }
 
      .review {
          padding: 2rem 0;
@@ -342,109 +382,60 @@
      .job-role {
          padding-bottom: 1.5rem;
      }
- }
-
- @media screen and (max-width:768px) {
-    /* .header-hero img {
-         display: block;
-     }*/
-     .header-hero p{
-        font-size: 3rem;
-     }
-     .header-top{
-        justify-content: space-between;
-        padding: 1rem;
-       
-     }
-    
-
-     .header {
-         height: 49rem;
-     }
-
-     .header-hero .mobile-img {
-         display: block;
-     }
-     .header-hero img{
-        display: none;
-     }
-     .arrow {
-         margin-top: 17rem;
-         transform: translateX(8rem);
-     }
-
-     .arrow img {
-         width: 100%;
-         height: 20vh;
-         display: block;
-     }
-
-     .p-g {
-         margin-left: 4rem;
-         transform: translateY(-15rem);
-     }
-
-     .menu-btn {
-         background-color: inherit;
-         border: none;
-         align-items: center;
-
-     }
-
-     .mobile-menu {
-         display: block;
-         
-     }
-
-     .close-icon {
-         display: none;
-     }
-
      .close-icon .active {
-         display: block;
-     }
+        display: block;
+    }
 
-     .menu-list {
-         background-color:white ;
-         
-     }
+    .menu-list {
+        background-color:white ;
+        
+    }
 
-     .menu-list a {
-         padding: 1rem;
-         font-size: 1rem;
-         font-weight: bolder;
-         color: black;
-         text-decoration: none;
-         display: flex;
-         flex-direction: column;
-        text-align: center;
-     }
-     .menu-list a:hover{
-        color: aqua;
-        border-bottom: 1px solid rgb(255, 186, 1);
-    
-     }
-     
+    .menu-list a {
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: bolder;
+        color: black;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+       text-align: center;
+    }
+    .menu-list a:hover{
+       color: aqua;
+       border-bottom: 1px solid rgb(255, 186, 1);
+   
+    }
  }
 
-/*@media screen and (max-width:1194px) {
-    .arrow{
-        margin-top: 7rem;
-        transform: translateX(20rem);
-        
+
+ /*@media screen and (max-width:800px) {
+    .header-hero img{
+        font-display: block;
     }
-    .header{
-        height: 40.7rem;
+    .header-hero .mobile-img{
+        display: none;
     }
-    .desc{
-        width: 56%;
+   .desc{
+    width: 67.7%;
+   }
+   .p-g{
+    margin-left: 3rem;
+    transform: translateY(-9rem);
+   }
+   .p-g h2{
+    padding: 0;
+   }
+  .header{
+    height: 39.8rem;
+  }
+  .arrow{
+    margin-top: 7rem;
+    transform: translateX(16.5rem);
+  }
+   .arrow img {
+        width: 100%;
+        height: 20vh;
+        display: block;
     }
-    .p-g{
-        margin-left: 4rem;
-        transform: translateY(-13rem);
-    }
-    .review {
-        display: flex;
-        
-    }
-}*/
+ }*/
