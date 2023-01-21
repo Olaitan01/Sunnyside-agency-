@@ -6,17 +6,22 @@ let headerHeight=document.querySelector(".header")
 menuBtn.addEventListener("click",()=>{
     if(menuBtn.classList.contains("active")){
         menuBtn.classList.toggle("active")
-        openBtn.style.display="none"
-        closeBtn.style.display="block"
-        menuItem.style.display="block"
+        openBtn.style.display="block"
+        closeBtn.style.display="none"
+        menuItem.style.display="none"
         headerHeight.style.height="60rem"
         
     }
     else{
         menuBtn.classList.toggle("active")
-        openBtn.style.display="block"
-        closeBtn.style.display="none"
-        menuItem.style.display="none"
+        openBtn.style.display="none"
+        closeBtn.style.display="block"
+        menuItem.style.display="block"
         headerHeight.style.height="49rem"
     }
+   /* menuBtn.classList.toggle("active")
+    openBtn.style.display="none"
+    closeBtn.style.display="block"
+    menuItem.style.display="block"*/
+    
 })

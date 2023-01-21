@@ -45,7 +45,7 @@
  }
 
  .header-nav a:hover {
-     opacity: 0.5;
+     opacity:0.5 ;
  }
 
  .header-nav a span {
@@ -386,6 +386,7 @@
      .close-icon .active {
         display: block;
     }
+   
 
     .menu-list {
         background-color:white ;
