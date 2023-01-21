@@ -9,7 +9,7 @@ menuBtn.addEventListener("click",()=>{
         openBtn.style.display="block"
         closeBtn.style.display="none"
         menuItem.style.display="none"
-        headerHeight.style.height="60rem"
+        headerHeight.style.height="49rem"
         
     }
     else{
@@ -17,7 +17,7 @@ menuBtn.addEventListener("click",()=>{
         openBtn.style.display="none"
         closeBtn.style.display="block"
         menuItem.style.display="block"
-        headerHeight.style.height="49rem"
+        headerHeight.style.height="60rem"
     }
    /* menuBtn.classList.toggle("active")
     openBtn.style.display="none"

@@ -26,6 +26,7 @@
 
  .mobile-menu {
      display: none;
+     
  }
 .menu-list{
     display: none;
@@ -390,6 +391,7 @@
 
     .menu-list {
         background-color:white ;
+        
         
     }
 
